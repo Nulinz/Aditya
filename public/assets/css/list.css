@@ -1,0 +1,429 @@
+.table-wrapper::-webkit-scrollbar {
+    display: none !important;
+}
+
+@media screen and (min-width: 1140px) {
+
+    .accordion-button h4 {
+        color: var(--black);
+        font-weight: 600;
+        font-size: 17px;
+    }
+
+    /* List */
+    .listtable {
+        padding: 20px 10px !important;
+        border-radius: .25rem;
+        background-color: var(--white);
+        box-shadow: 0 0 .875rem 0 rgba(33, 37, 41, .05);
+    }
+
+    .filter-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .custom-search-container {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+
+    .custom-search-container select {
+        width: 20%;
+        margin-left: 0px;
+        font-size: 12px;
+        padding: 5px 10px;
+        border: 1px solid var(--tinp-border);
+        border-radius: 5px 0px 0px 5px;
+        background-color: var(--white);
+    }
+
+    .custom-search-container input {
+        width: 50%;
+        margin-left: 0px;
+        font-size: 12px;
+        padding: 5px 10px;
+        border: 1px solid var(--tinp-border);
+        border-radius: 0px 5px 5px 0px;
+        background-color: var(--white);
+    }
+
+    .dataTables_length {
+        font-size: 12px;
+    }
+
+    .dataTables_length label {
+        font-weight: 600 !important;
+    }
+
+    .dataTables_filter {
+        display: none;
+    }
+
+    .select1 {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .table-wrapper {
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    .table thead th {
+        color: var(--thead);
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .table td {
+        color: var(--tdata);
+        font-size: 12px;
+        font-weight: 450;
+        padding: 15px auto;
+    }
+
+    .table tbody tr .active {
+        color: #55A330;
+        text-decoration: none;
+    }
+
+    .table tbody tr .inactive {
+        color: #FF0000;
+        text-decoration: none;
+    }
+
+    .table tbody tr td i {
+        color: var(--black);
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .page-link {
+        font-size: 12px;
+        color: var(--black);
+    }
+
+    .active>.page-link,
+    .page-link.active {
+        background-color: var(--black);
+        border-color: var(--black);
+        color: var(--white);
+    }
+
+    .table tr:nth-child(odd) td {
+        background-color: var(--trow) !important;
+    }
+
+    .bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #export {
+        font-size: 20px;
+        color: #FF0000;
+    }
+
+    #import {
+        font-size: 20px;
+        color: #55A330;
+    }
+
+    #excel,
+    #print {
+        font-size: 20px;
+        color: #576D7E;
+    }
+
+    .maxdesp {
+        width: 250px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1140px) {
+
+    .accordion-button h4 {
+        color: var(--black);
+        font-weight: 600;
+        font-size: 17px;
+    }
+
+    /* List */
+    .listtable {
+        padding: 20px 10px !important;
+        border-radius: 10px;
+        background-color: var(--white);
+        box-shadow: 0 0 .875rem 0 rgba(33, 37, 41, .05);
+    }
+
+    .filter-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .custom-search-container {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+
+    .custom-search-container select {
+        width: 30%;
+        margin-left: 0px;
+        font-size: 12px;
+        padding: 5px 10px;
+        border: 1px solid var(--tinp-border);
+        border-radius: 5px 0px 0px 5px;
+        background-color: var(--white);
+    }
+
+    .custom-search-container input {
+        width: 60%;
+        margin-left: 0px;
+        font-size: 12px;
+        padding: 5px 10px;
+        border: 1px solid var(--tinp-border);
+        border-radius: 0px 5px 5px 0px;
+        background-color: var(--white);
+    }
+
+    .dataTables_length {
+        display: none;
+    }
+
+    .dataTables_filter {
+        display: none;
+    }
+
+    .select1 {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .table-wrapper {
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+    .table thead th {
+        color: var(--thead);
+        font-size: 13px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+
+    .table td {
+        color: var(--tdata);
+        font-size: 12px;
+        font-weight: 450;
+        padding: 15px auto;
+    }
+
+    .table tbody tr .active {
+        color: #55A330;
+        text-decoration: none;
+    }
+
+    .table tbody tr .inactive {
+        color: #FF0000;
+        text-decoration: none;
+    }
+
+    .table tbody tr td i {
+        color: var(--black);
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .page-link {
+        font-size: 12px;
+        color: var(--black);
+    }
+
+    .active>.page-link,
+    .page-link.active {
+        background-color: var(--white);
+        border-color: var(--white);
+        color: var(--black);
+    }
+
+    .table tr:nth-child(odd) td {
+        background-color: var(--trow) !important;
+    }
+
+    .bottom {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    #export {
+        font-size: 20px;
+        color: #FF0000;
+    }
+
+    #import {
+        font-size: 20px;
+        color: #55A330;
+    }
+
+    #excel,
+    #print {
+        font-size: 20px;
+        color: #576D7E;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .accordion-button h4 {
+        color: var(--black);
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    /* List */
+    .listtable {
+        width: 100%;
+        padding: 20px 10px;
+        background-color: var(--white);
+        box-shadow: 0 0 .875rem 0 rgba(33, 37, 41, .05);
+    }
+
+    .table-wrapper {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .custom-search-container {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+
+    .custom-search-container select {
+        width: 40%;
+        margin-left: 0px;
+        font-size: 12px;
+        padding: 5px 10px;
+        border: 1px solid var(--tinp-border);
+        border-radius: 5px 0px 0px 5px;
+        background-color: var(--white);
+    }
+
+    .custom-search-container input {
+        width: 60%;
+        margin-left: 0px;
+        font-size: 12px;
+        padding: 5px 10px;
+        border: 1px solid var(--tinp-border);
+        border-radius: 0px 5px 5px 0px;
+        background-color: var(--white);
+    }
+
+    .dataTables_length {
+        display: none;
+    }
+
+    .dataTables_filter {
+        display: none;
+    }
+
+    .select1 div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .select1 img {
+        height: 30px !important;
+    }
+
+    .table thead th {
+        color: var(--thead);
+        font-size: 13px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+
+    .table td {
+        color: var(--tdata);
+        font-size: 12px;
+        font-weight: 450;
+        padding: 10px auto;
+    }
+
+    .table tbody tr .active {
+        color: #55A330;
+        text-decoration: none;
+    }
+
+    .table tbody tr .inactive {
+        color: #FF0000;
+        text-decoration: none;
+    }
+
+    .table tbody tr td i {
+        color: var(--black);
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .page-link {
+        font-size: 12px;
+        color: var(--black);
+    }
+
+    .active>.page-link,
+    .page-link.active {
+        background-color: var(--white);
+        border-color: var(--white);
+        color: var(--black);
+    }
+
+    .table tr:nth-child(odd) td {
+        background-color: var(--trow) !important;
+    }
+
+    .bottom {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+    #export {
+        font-size: 20px;
+        color: #FF0000;
+    }
+
+    #import {
+        font-size: 20px;
+        color: #55A330;
+    }
+    
+    #excel,
+    #print {
+        font-size: 18px;
+        color: #576D7E;
+    }
+
+}

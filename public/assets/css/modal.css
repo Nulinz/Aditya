@@ -1,0 +1,56 @@
+.modal h4 {
+    color: var(--black);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.modal form label {
+    color: var(--label);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.modal form input,
+.modal form textarea,
+.modal form select {
+    border: 1px solid var(--input-border);
+    background-color: var(--white);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.modal form select option {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.modal .table td,
+.modal .table th {
+    padding: 5px 5px;
+    background-color: transparent !important;
+    font-size: 13px;
+}
+
+.modal .table th {
+    color: var(--label);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.modalbtn {
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid var(--black);
+    height: 35px;
+    border-radius: 5px;
+    width: 150px;
+    transition: 0.5s ease-in-out;
+    box-shadow: 0 0 .875rem 0 rgba(33, 37, 41, .05);
+}
+
+.modalbtn:hover {
+    background-color: var(--white);
+    color: var(--black);
+}

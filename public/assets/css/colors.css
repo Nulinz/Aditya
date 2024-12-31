@@ -1,0 +1,16 @@
+:root {
+    /* --primary: ;
+    --secondary: ; */
+    --bg: #F7F7FC;
+    --black: #000;
+    --white: #fff;
+    --label: #4d4d4d;
+    --input-border: #21242730;
+    --tinp-border: #9E9E9E;
+    --trow: #fdfdfd;
+    --thead: #AEB1B5;
+    --tdata: #495057;
+    --list-search: #9E9E9E;
+    --aside-btn: #373737;
+    --aside-li: #808080;
+}
